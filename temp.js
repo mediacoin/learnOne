@@ -1,0 +1,4 @@
+var jsonDate = (new Date()).toJSON();
+var backToDate = new Date(jsonDate);
+
+console.log('Serialized date object: ' + jsonDate);
